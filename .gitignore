@@ -1,6 +1,6 @@
 /docs/
 /assets/scss/
 /examples/
+gulpfile.js
 *.md
 *.json
-*.js

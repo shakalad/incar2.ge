@@ -273,6 +273,7 @@ select {
 
 .form_shakalad{
   padding-bottom: 10px;
+  min-height: 280px !important;
 }
 
 .form_shakalad .form-check{
@@ -14691,11 +14692,15 @@ textarea {
   position: relative;
   color: inherit;
   padding: 0.9375rem;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5em;
   text-transform: uppercase;
   border-radius: 3px;
-  line-height: 20px;
+}
+
+.navbar .navbar-nav .nav-item:hover a.nav-link{
+  color: #00bcd4;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:not(.btn-just-icon) .fa {
@@ -15572,10 +15577,6 @@ h2.title {
 .nav-item .btn{
   font-size: 1rem;
   font-weight: bold;
-}
-
-.nav-link:hover h4{
-  color: #00bcd4;
 }
 
 .nav-tabs .nav-item .nav-link {
