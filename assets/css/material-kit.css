@@ -271,6 +271,15 @@ select {
   text-transform: none;
 }
 
+.form_shakalad{
+  padding-bottom: 10px;
+}
+
+.form_shakalad .form-check{
+  margin-top: 0 !important;
+  padding-top: 20px !important;
+}
+
 button,
 html [type="button"],
 [type="reset"],
@@ -12899,7 +12908,7 @@ fieldset[disabled] .is-focused .switch label:focus {
 
 .form-control,
 .is-focused .form-control {
-  background-image: linear-gradient(to top, #9c27b0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+  background-image: linear-gradient(to top, #00bcd4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
 }
 
 .form-control:invalid {
@@ -17379,8 +17388,7 @@ footer .pull-center {
 }
 
 .card-login .input-group {
-  padding-bottom: 7px;
-  margin: 0 0 0 0;
+  margin: -9px 0 0 0;
 }
 
 .card-login .form {
@@ -18259,6 +18267,15 @@ footer .pull-center {
   /*height: 90vh;*/
   overflow: hidden;
 }
+
+.page-header_shakalad{
+  height: 170px;
+}
+
+.header-filter_shakalad:before, .header-filter_shakalad:after{
+  height: 0%;
+}
+
 
 .index-page .brand {
   color: #ffffff;
