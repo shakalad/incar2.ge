@@ -1,0 +1,6 @@
+/docs/
+/assets/scss/
+/examples/
+*.md
+*.json
+*.js
